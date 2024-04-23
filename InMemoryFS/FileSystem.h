@@ -30,7 +30,7 @@ public:
         std::copy(input.begin(),input.end(), std::back_inserter(content_));
     }
 
-    inline size_t GetSize() const
+    size_t GetSize() const
     {
         return size_;
     }
